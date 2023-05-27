@@ -1,0 +1,16 @@
+.todo-item {
+  display:flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  .todo-item-checkbox {
+    cursor: pointer;
+  }
+  .todo-checked {
+    color: #737373;
+    text-decoration: line-through;
+  }
+  .todo-item-label {
+    cursor:pointer;
+  }
+}
